@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<arquillian xmlns="http://jboss.org/schema/arquillian">
+    <container qualifier="glassfish" default="true">
+        <configuration>
+            <property name="glassFishHome">
+                C:\Program Files\glassfish-5.0
+            </property>
+            <property name="adminHost">localhost</property>
+            <property name="adminPort">4848</property>
+            <property name="adminUser">admin</property>
+            <property name="adminPassword">admin</property>
+        </configuration>
+    </container>
+</arquillian>
